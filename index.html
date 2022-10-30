@@ -11,17 +11,59 @@
       crossorigin="anonymous"
     />
   </head>
+  <header>
+    <nav class="navbar navbar-expand-md bg-light">
+      <div class="container">
+        <a class="navbar-brand w-25" href="index.html">
+          <img
+            class="w-100"
+            src="images/mathew-schwartz-E1n-5Emx38M-unsplash.jpg"
+            alt="Note Logo"
+        /></a>
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="aboutme.html">My Story</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              href="#"
+              >Projects</a
+            >
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="freelancehome.html"
+                  >Freelance Projects</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="music.html">Music Projects</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
   <body>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
-    <header>
+    <header class="container">
       <h1>Christopher Mattila</h1>
       <h4>Performing Artist. Freelance Producer.</h4>
     </header>
-    <section>
+    <section class="container">
+      <!--  -->
       <!-- My Story Section -->
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
@@ -31,22 +73,30 @@
       </p>
       <button>My Story</button>
     </section>
-    <section>
-        <!-- Projects & Collaborations Section -->
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-        ullamcorper at augue nec faucibus. Sed nec mollis massa. Vivamus
-        pellentesque, tortor ac pellentesque egestas, libero augue vehicula
-        tellus, eu porta eros enim a est.
-      </p>
-      <button>Projects & Collaborations</button>
+    <section class="container">
+      <div class="row">
+        <div class="col">
+          <!-- Projects & Collaborations Section -->
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+            ullamcorper at augue nec faucibus. Sed nec mollis massa. Vivamus
+            pellentesque, tortor ac pellentesque egestas, libero augue vehicula
+            tellus, eu porta eros enim a est.
+          </p>
+          <button>Projects & Collaborations</button>
+        </div>
+
+        <div class="col">
+          <p>This is an image</p>
+        </div>
+      </div>
     </section>
-    <section>
-        <!-- Quote Section -->
+    <section class="container">
+      <!-- Quote Section -->
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </section>
-    <section>
-        <!-- Contact Me Section -->
+    <section class="container">
+      <!-- Contact Me Section -->
       <h2>Contact Me</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       <button>Send Me A Message</button>
