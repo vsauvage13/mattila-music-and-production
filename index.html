@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="description" content="Mattila Music and Production offers freelance music mixing, music production, and recording for everything from live music to audiobooks. Located in Victoria, British Columbia, I can provide you with all of your music production and mixing needs. ">
+    <meta
+      name="description"
+      content="Mattila Music and Production offers freelance music mixing, music production, and recording for everything from live music to audiobooks. Located in Victoria, British Columbia, I can provide you with all of your music production and mixing needs. "
+    />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Home Page - Mattila Music and Production</title>
@@ -12,10 +15,18 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="CSS/style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+      async
+      defer
+    ></script>
   </head>
 
   <body>
     <header>
+      <!-- NAV BAR STARTS -->
       <nav class="navbar navbar-expand-md bg-light">
         <div class="container">
           <a class="navbar-brand w-25" href="index.html">
@@ -25,6 +36,7 @@
             <li class="nav-item">
               <a class="nav-link" href="aboutme.html">My Story</a>
             </li>
+            <!-- NAV BAR DROPDOWN STARTS -->
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -45,27 +57,41 @@
                 </li>
               </ul>
             </li>
+            <!-- NAV BAR DROPDOWN ENDS -->
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact Me</a>
             </li>
           </ul>
         </div>
       </nav>
-    </header>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-      crossorigin="anonymous"
-    ></script>
+      <!-- NAV BAR ENDS -->
+      <!-- HERO/HEADER SECTION STARTS -->
 
-    <section class="text-left">
-      <div class="container">
-        <h1>Christopher Mattila</h1>
-        <h4>Performing Artist. Freelance Producer.</h4>
+      <div
+        class="p-5 bg-image"
+        style="
+          background-image: url('images/home-page/christopher-with-guitar-outside.png');
+          height: 500px;
+          background-repeat: no-repeat;
+          background-size: cover;
+        "
+        alt="A young man with short dark hair sings while holding an acoustic guitar. The photo is in greyscale."
+      >
+        <div class="container mt-5">
+          <div class="d-flex align-items-end">
+            <div class="text-white">
+              <h1>Christopher Mattila</h1>
+              <h4>Performing Artist. Freelance Producer.</h4>
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
+
+      <!-- HERO/HEADER SECTION ENDS -->
+    </header>
+
+    <!-- MY STORY SECTION STARTS -->
     <section class="container">
-      <!-- My Story Section -->
       <p>
         I offer freelance Music and Production services in beautiful Victoria,
         British Columbia. I enjoy collaborating, recording, and performing music
@@ -79,22 +105,25 @@
       </p>
       <button>My Story</button>
     </section>
+    <!-- MY STORY SECTION ENDS -->
+    <!-- SERVICES & EQUIPMENT SECTION STARTS -->
     <section class="container">
       <div class="row">
         <div class="col">
           <!-- Services Section-->
           <p>
-            Whether it's recording vocals for podcasts, voiceovers, or singing or it's 
-
+            Whether it's recording vocals for podcasts, voiceovers, or singing
+            or it's
           </p>
           <button>Services & Equipment</button>
         </div>
       </div>
     </section>
+    <!-- SERVICES & EQUIPMENT SECTION ENDS -->
+    <!-- PROJECTS & COLLABORATIONS SECTION STARTS -->
     <section class="container">
       <div class="row">
         <div class="col">
-          <!-- Projects & Collaborations Section -->
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
             ullamcorper at augue nec faucibus. Sed nec mollis massa. Vivamus
@@ -109,16 +138,22 @@
         </div>
       </div>
     </section>
+    <!-- PROJECTS & COLLABORATIONS SECTION ENDS -->
+    <!-- QUOTE SECTION STARTS -->
     <section class="container">
-      <!-- Quote Section -->
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </section>
+    <!-- QUOTE SECTION ENDS -->
+    <!-- CONTACT SECTION STARTS -->
     <section class="container">
       <!-- Contact Me Section -->
       <h2>Contact Me</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       <button>Send Me A Message</button>
     </section>
+    <!-- CONTACT SECTION ENDS-->
+    <!-- FOOTER SECTION STARTS -->
     <footer></footer>
+    <!-- FOOTER SECTION ENDS -->
   </body>
 </html>
