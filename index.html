@@ -27,39 +27,47 @@
   <body>
     <header>
       <!-- NAV BAR STARTS -->
-      <nav class="navbar navbar-expand-md bg-light">
+      <nav class="navbar navbar-expand-md dark-blue-background">
         <div class="container">
-          <a class="navbar-brand w-25" href="index.html">
+          <a class="navbar-brand w-25 mt-3 off-white-text" href="index.html">
             <p>Mattila Music & Production</p></a
           >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="aboutme.html">My Story</a>
+              <a class="nav-link off-white-text" href="aboutme.html"
+                >My Story</a
+              >
             </li>
             <!-- NAV BAR DROPDOWN STARTS -->
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link dropdown-toggle off-white-text"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
                 href="#"
                 >Projects</a
               >
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu dark-blue-background">
                 <li>
-                  <a class="dropdown-item" href="freelancehome.html"
+                  <a
+                    class="dropdown-item off-white-text"
+                    href="freelancehome.html"
                     >Freelance Projects</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="music.html">Music Projects</a>
+                  <a class="dropdown-item off-white-text" href="music.html"
+                    >Music Projects</a
+                  >
                 </li>
               </ul>
             </li>
             <!-- NAV BAR DROPDOWN ENDS -->
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Me</a>
+              <a class="nav-link off-white-text" href="contact.html"
+                >Contact Me</a
+              >
             </li>
           </ul>
         </div>
@@ -92,45 +100,74 @@
 
     <!-- MY STORY SECTION STARTS -->
     <section class="container">
-      <p>
-        I offer freelance Music and Production services in beautiful Victoria,
-        British Columbia. I enjoy collaborating, recording, and performing music
-        in a variety of settings.
-      </p>
-      <p>
-        I love what music has to offer in all the different performance and
-        production spaces available. Each room, pub, stage, and basement have
-        something unique to offer to both the performer and the producer. I
-        can't wait to share it with you.
-      </p>
-      <button>My Story</button>
+      <div class="text-center">
+        <p>
+          I offer freelance Music and Production services in beautiful Victoria,
+          British Columbia. I enjoy collaborating, recording, and performing
+          music in a variety of settings.
+        </p>
+        <p>
+          I love what music has to offer in all the different performance and
+          production spaces available. Each room, pub, stage, and basement have
+          something unique to offer to both the performer and the producer. I
+          can't wait to share it with you.
+        </p>
+        <!-- button start -->
+        <div>
+          <a
+            href="aboutme.html"
+            type="button"
+            class="btn btn-outline-dark btn-lg"
+            >My Story</a
+          >
+        </div>
+        <!-- button end -->
+      </div>
     </section>
     <!-- MY STORY SECTION ENDS -->
     <!-- SERVICES & EQUIPMENT SECTION STARTS -->
     <section class="container">
-      <div class="row">
+      <div class="row text-center">
         <div class="col">
           <!-- Services Section-->
           <p>
             Whether it's recording vocals for podcasts, voiceovers, or singing
             or it's
           </p>
-          <button>Services & Equipment</button>
+          <!-- button start -->
+          <div>
+            <a
+              href="services.html"
+              type="button"
+              class="btn btn-outline-dark btn-lg"
+              >Services & Equipment</a
+            >
+          </div>
+          <!-- button end -->
         </div>
       </div>
     </section>
     <!-- SERVICES & EQUIPMENT SECTION ENDS -->
-    <!-- PROJECTS & COLLABORATIONS SECTION STARTS -->
+    <!-- FREELANCE PROJECTS SECTION STARTS -->
     <section class="container">
       <div class="row">
-        <div class="col">
+        <div class="col text-center">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
             ullamcorper at augue nec faucibus. Sed nec mollis massa. Vivamus
             pellentesque, tortor ac pellentesque egestas, libero augue vehicula
             tellus, eu porta eros enim a est.
           </p>
-          <button>Projects & Collaborations</button>
+          <!-- button start -->
+          <div>
+            <a
+              href="freelancehome.html"
+              type="button"
+              class="btn btn-outline-dark btn-lg"
+              >Freelance Projects</a
+            >
+          </div>
+          <!-- button end -->
         </div>
 
         <div class="col">
@@ -138,20 +175,164 @@
         </div>
       </div>
     </section>
-    <!-- PROJECTS & COLLABORATIONS SECTION ENDS -->
+    <!-- FREELANCE PROJECTS  SECTION ENDS -->
+
     <!-- QUOTE SECTION STARTS -->
-    <section class="container">
+    <section class="container text-center">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </section>
     <!-- QUOTE SECTION ENDS -->
     <!-- CONTACT SECTION STARTS -->
     <section class="container">
       <!-- Contact Me Section -->
-      <h2>Contact Me</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      <button>Send Me A Message</button>
+      <div class="text-center">
+        <h2>Contact Me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <!-- button start -->
+        <div>
+          <a
+            href="contact.html"
+            type="button"
+            class="btn btn-outline-dark btn-lg"
+            >Get In Touch</a
+          >
+        </div>
+        <!-- button end -->
+      </div>
     </section>
     <!-- CONTACT SECTION ENDS-->
+    <!-- MUSIC SECTION STARTS -->
+    <section class="container">
+      <div class="row">
+        <!-- soundcloud link start -->
+        <div class="col">
+          <iframe
+            width="100%"
+            height="100"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/828115849&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+          ></iframe>
+          <div
+            style="
+              font-size: 10px;
+              color: #cccccc;
+              line-break: anywhere;
+              word-break: normal;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              font-family: Interstate, Lucida Grande, Lucida Sans Unicode,
+                Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
+              font-weight: 100;
+            "
+          >
+            <a
+              href="https://soundcloud.com/christopher-mattila"
+              title="Christopher Mattila"
+              target="_blank"
+              style="color: #cccccc; text-decoration: none"
+              >Christopher Mattila</a
+            >
+            ·
+            <a
+              href="https://soundcloud.com/christopher-mattila/dear-summer-stripped"
+              title="Dear Summer (Stripped)"
+              target="_blank"
+              style="color: #cccccc; text-decoration: none"
+              >Dear Summer (Stripped)</a
+            >
+          </div>
+        </div>
+        <!-- soundcloud link end-->
+        <!-- soundcloud link start -->
+        <div class="col">
+          <iframe
+            width="100%"
+            height="100"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/644477562&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+          ></iframe>
+          <div
+            style="
+              font-size: 10px;
+              color: #cccccc;
+              line-break: anywhere;
+              word-break: normal;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              font-family: Interstate, Lucida Grande, Lucida Sans Unicode,
+                Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
+              font-weight: 100;
+            "
+          >
+            <a
+              href="https://soundcloud.com/christopher-mattila"
+              title="Christopher Mattila"
+              target="_blank"
+              style="color: #cccccc; text-decoration: none"
+              >Christopher Mattila</a
+            >
+            ·
+            <a
+              href="https://soundcloud.com/christopher-mattila/dreams-1"
+              title="Dreams"
+              target="_blank"
+              style="color: #cccccc; text-decoration: none"
+              >Dreams</a
+            >
+          </div>
+        </div>
+        <!-- soundcloud link end-->
+        <!-- soundcloud link start -->
+        <div class="col">
+          <iframe
+            width="100%"
+            height="100"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/558249072&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+          ></iframe>
+          <div
+            style="
+              font-size: 10px;
+              color: #cccccc;
+              line-break: anywhere;
+              word-break: normal;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              font-family: Interstate, Lucida Grande, Lucida Sans Unicode,
+                Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
+              font-weight: 100;
+            "
+          >
+            <a
+              href="https://soundcloud.com/christopher-mattila"
+              title="Christopher Mattila"
+              target="_blank"
+              style="color: #cccccc; text-decoration: none"
+              >Christopher Mattila</a
+            >
+            ·
+            <a
+              href="https://soundcloud.com/christopher-mattila/patience"
+              title="Patience"
+              target="_blank"
+              style="color: #cccccc; text-decoration: none"
+              >Patience</a
+            >
+          </div>
+        </div>
+        <!-- soundcloud link end-->
+      </div>
+    </section>
+    <!-- MUSIC SECTION ENDS -->
     <!-- FOOTER SECTION STARTS -->
     <footer></footer>
     <!-- FOOTER SECTION ENDS -->

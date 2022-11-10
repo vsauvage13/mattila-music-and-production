@@ -1,0 +1,27 @@
+/* BACKGROUND COLOURS
+-------------------------------------------- */
+
+.dark-blue-background {
+    background-color: #0f0e17 !important;
+}
+.off-white-background {
+    background-color: #FFF5EB;
+}
+/* TEXT COLOURS
+-------------------------------------------- */
+.dark-blue-text {
+    color: #0f0e17;
+}
+.off-white-text {
+color: #FFF5EB;
+}
+
+/* NAV BAR
+-------------------------------------------- */
+.navbar-brand:hover,.nav-link:hover {
+color: #ff8906 !important;
+}
+.dropdown-item:hover {
+    color: #ff8906 !important;
+    background-color: #0f0e17 !important;
+}
