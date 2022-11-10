@@ -158,33 +158,34 @@
     <!-- SERVICES & EQUIPMENT SECTION ENDS -->
     <!-- FREELANCE PROJECTS SECTION STARTS -->
     <!-- https://stackoverflow.com/questions/72361481/make-horizontal-bootstrap-5-cards-image-height-of-the-card-body Where I got the horizontal card code from -->
-
-    <div class="container">
-      <div class="card border-0">
-        <div class="row g-0">
-          <div class="col-sm-8">
-            <div class="mt-5 card-body text-center">
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-              <!-- button start -->
-              <div>
-                <a
-                  href="freelancehome.html"
-                  type="button"
-                  class="btn btn-outline-dark btn-lg"
-                  >Freelance Projects</a
-                >
+    <div class="light-blue-background">
+      <div class="container">
+        <div class="card border-0 light-blue-background">
+          <div class="row g-0">
+            <div class="col-sm-8">
+              <div class="mt-5 card-body text-center">
+                <p class="card-text lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <!-- button start -->
+                <div>
+                  <a
+                    href="freelancehome.html"
+                    type="button"
+                    class="btn btn-outline-dark btn-lg"
+                    >Freelance Projects</a
+                  >
+                </div>
+                <!-- button end -->
               </div>
-              <!-- button end -->
             </div>
-          </div>
-          <div class="col-sm-4 position-relative">
-            <img
-              src="Images/Home-Page/christopher-with-guitar-outside.png"
-              class="card-img fit-cover w-100 h-100"
-              alt="A young man with short dark hair sings while holding an acoustic guitar. The photo is in greyscale."
-            />
+            <div class="col-sm-4 position-relative">
+              <img
+                src="Images/Home-Page/christopher-with-guitar-outside.png"
+                class="card-img fit-cover w-100 h-100"
+                alt="A young man with short dark hair sings while holding an acoustic guitar. The photo is in greyscale."
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -193,14 +194,17 @@
     <!-- FREELANCE PROJECTS  SECTION ENDS -->
 
     <!-- QUOTE SECTION STARTS -->
-    <section class="container text-center">
-      <p class="lead">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      </p>
-    </section>
+    <div class="dark-blue-background off-white-text">
+      <section class="container text-center pt-5">
+        <p class="lead pb-5 mb-3">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </section>
+    </div>
+
     <!-- QUOTE SECTION ENDS -->
     <!-- CONTACT SECTION STARTS -->
-    <section class="container">
+    <section class="container pt-5 mt-3">
       <!-- Contact Me Section -->
       <div class="text-center">
         <h2>Contact Me</h2>
@@ -208,7 +212,7 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
         <!-- button start -->
-        <div>
+        <div class="pb-5 mb-3">
           <a
             href="contact.html"
             type="button"
@@ -221,139 +225,158 @@
     </section>
     <!-- CONTACT SECTION ENDS-->
     <!-- MUSIC SECTION STARTS -->
-    <section class="container">
-      <div class="row">
-        <!-- soundcloud link start -->
-        <div class="col">
-          <iframe
-            width="100%"
-            height="100"
-            scrolling="no"
-            frameborder="no"
-            allow="autoplay"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/828115849&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-          ></iframe>
-          <div
-            style="
-              font-size: 10px;
-              color: #cccccc;
-              line-break: anywhere;
-              word-break: normal;
-              overflow: hidden;
-              white-space: nowrap;
-              text-overflow: ellipsis;
-              font-family: Interstate, Lucida Grande, Lucida Sans Unicode,
-                Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
-              font-weight: 100;
-            "
-          >
-            <a
-              href="https://soundcloud.com/christopher-mattila"
-              title="Christopher Mattila"
-              target="_blank"
-              style="color: #cccccc; text-decoration: none"
-              >Christopher Mattila</a
-            >
-            ·
-            <a
-              href="https://soundcloud.com/christopher-mattila/dear-summer-stripped"
-              title="Dear Summer (Stripped)"
-              target="_blank"
-              style="color: #cccccc; text-decoration: none"
-              >Dear Summer (Stripped)</a
-            >
-          </div>
+    <!--TODO MAKE A CAROUSEL FOR MUSIC  -->
+    <div class="orange-background">
+      <section class="container pt-5">
+        <div class="text-center off-white-text mb-3">
+          <h2>My Music</h2>
         </div>
-        <!-- soundcloud link end-->
-        <!-- soundcloud link start -->
-        <div class="col">
-          <iframe
-            width="100%"
-            height="100"
-            scrolling="no"
-            frameborder="no"
-            allow="autoplay"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/644477562&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-          ></iframe>
-          <div
-            style="
-              font-size: 10px;
-              color: #cccccc;
-              line-break: anywhere;
-              word-break: normal;
-              overflow: hidden;
-              white-space: nowrap;
-              text-overflow: ellipsis;
-              font-family: Interstate, Lucida Grande, Lucida Sans Unicode,
-                Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
-              font-weight: 100;
-            "
-          >
-            <a
-              href="https://soundcloud.com/christopher-mattila"
-              title="Christopher Mattila"
-              target="_blank"
-              style="color: #cccccc; text-decoration: none"
-              >Christopher Mattila</a
+        <div class="row pb-5">
+          <!-- soundcloud link start -->
+          <div class="col">
+            <iframe
+              width="100%"
+              height="100"
+              scrolling="no"
+              frameborder="no"
+              allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/828115849&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+            ></iframe>
+            <div
+              style="
+                font-size: 10px;
+                color: #cccccc;
+                line-break: anywhere;
+                word-break: normal;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                font-family: Interstate, Lucida Grande, Lucida Sans Unicode,
+                  Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
+                font-weight: 100;
+              "
             >
-            ·
-            <a
-              href="https://soundcloud.com/christopher-mattila/dreams-1"
-              title="Dreams"
-              target="_blank"
-              style="color: #cccccc; text-decoration: none"
-              >Dreams</a
-            >
+              <a
+                href="https://soundcloud.com/christopher-mattila"
+                title="Christopher Mattila"
+                target="_blank"
+                style="color: #cccccc; text-decoration: none"
+                >Christopher Mattila</a
+              >
+              ·
+              <a
+                href="https://soundcloud.com/christopher-mattila/dear-summer-stripped"
+                title="Dear Summer (Stripped)"
+                target="_blank"
+                style="color: #cccccc; text-decoration: none"
+                >Dear Summer (Stripped)</a
+              >
+            </div>
           </div>
-        </div>
-        <!-- soundcloud link end-->
-        <!-- soundcloud link start -->
-        <div class="col">
-          <iframe
-            width="100%"
-            height="100"
-            scrolling="no"
-            frameborder="no"
-            allow="autoplay"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/558249072&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-          ></iframe>
-          <div
-            style="
-              font-size: 10px;
-              color: #cccccc;
-              line-break: anywhere;
-              word-break: normal;
-              overflow: hidden;
-              white-space: nowrap;
-              text-overflow: ellipsis;
-              font-family: Interstate, Lucida Grande, Lucida Sans Unicode,
-                Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
-              font-weight: 100;
-            "
-          >
-            <a
-              href="https://soundcloud.com/christopher-mattila"
-              title="Christopher Mattila"
-              target="_blank"
-              style="color: #cccccc; text-decoration: none"
-              >Christopher Mattila</a
+          <!-- soundcloud link end-->
+          <!-- soundcloud link start -->
+          <div class="col">
+            <iframe
+              width="100%"
+              height="100"
+              scrolling="no"
+              frameborder="no"
+              allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/644477562&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+            ></iframe>
+            <div
+              style="
+                font-size: 10px;
+                color: #cccccc;
+                line-break: anywhere;
+                word-break: normal;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                font-family: Interstate, Lucida Grande, Lucida Sans Unicode,
+                  Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
+                font-weight: 100;
+              "
             >
-            ·
-            <a
-              href="https://soundcloud.com/christopher-mattila/patience"
-              title="Patience"
-              target="_blank"
-              style="color: #cccccc; text-decoration: none"
-              >Patience</a
-            >
+              <a
+                href="https://soundcloud.com/christopher-mattila"
+                title="Christopher Mattila"
+                target="_blank"
+                style="color: #cccccc; text-decoration: none"
+                >Christopher Mattila</a
+              >
+              ·
+              <a
+                href="https://soundcloud.com/christopher-mattila/dreams-1"
+                title="Dreams"
+                target="_blank"
+                style="color: #cccccc; text-decoration: none"
+                >Dreams</a
+              >
+            </div>
           </div>
+          <!-- soundcloud link end-->
+          <!-- soundcloud link start -->
+          <div class="col">
+            <iframe
+              width="100%"
+              height="100"
+              scrolling="no"
+              frameborder="no"
+              allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/558249072&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+            ></iframe>
+            <div
+              style="
+                font-size: 10px;
+                color: #cccccc;
+                line-break: anywhere;
+                word-break: normal;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                font-family: Interstate, Lucida Grande, Lucida Sans Unicode,
+                  Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
+                font-weight: 100;
+              "
+            >
+              <a
+                href="https://soundcloud.com/christopher-mattila"
+                title="Christopher Mattila"
+                target="_blank"
+                style="color: #cccccc; text-decoration: none"
+                >Christopher Mattila</a
+              >
+              ·
+              <a
+                href="https://soundcloud.com/christopher-mattila/patience"
+                title="Patience"
+                target="_blank"
+                style="color: #cccccc; text-decoration: none"
+                >Patience</a
+              >
+            </div>
+          </div>
+          <!-- soundcloud link end-->
         </div>
-        <!-- soundcloud link end-->
-      </div>
-    </section>
+      </section>
+    </div>
+
     <!-- MUSIC SECTION ENDS -->
     <!-- FOOTER SECTION STARTS -->
-    <footer></footer>
+    <footer class="dark-blue-background off-white-text">
+      <div class="container pt-5">
+        <div class="row pb-5 mt-5">
+          <div class="col">
+            <h4>Christopher Mattila</h4>
+            <p class="lead">Made with a belly full of peanut butter.</p>
+          </div>
+          <div class="col"></div>
+          <div class="col"></div>
+          <div class="col"></div>
+        </div>
+      </div>
+    </footer>
     <!-- FOOTER SECTION ENDS -->
   </body>
 </html>
