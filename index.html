@@ -78,18 +78,19 @@
       <div
         class="p-5 bg-image"
         style="
-          background-image: url('images/home-page/christopher-with-guitar-outside.png');
-          height: 500px;
+          background-image: url('images/home-page/christopher-sitting-log-crop.png');
+          height: 600px;
           background-repeat: no-repeat;
           background-size: cover;
         "
-        alt="A young man with short dark hair sings while holding an acoustic guitar. The photo is in greyscale."
+        alt="A young man with short dark hair in a blue dress shirt leans on a driftwoog log on the beach. The background is greenery along the beach."
       >
         <div class="container mt-5">
-          <div class="d-flex align-items-end">
+          <div class="d-flex flex-column align-items-start justify-content-end">
             <div class="text-white">
               <h1>Christopher Mattila</h1>
               <h4>Performing Artist. Freelance Producer.</h4>
+              <!-- TODO need to get h1 and h4 to the bottom of the photo on the left hand side cant figure it out. -->
             </div>
           </div>
         </div>
@@ -99,43 +100,50 @@
     </header>
 
     <!-- MY STORY SECTION STARTS -->
-    <section class="container">
-      <div class="text-center">
-        <p>
-          I offer freelance Music and Production services in beautiful Victoria,
-          British Columbia. I enjoy collaborating, recording, and performing
-          music in a variety of settings.
-        </p>
-        <p>
-          I love what music has to offer in all the different performance and
-          production spaces available. Each room, pub, stage, and basement have
-          something unique to offer to both the performer and the producer. I
-          can't wait to share it with you.
-        </p>
-        <!-- button start -->
-        <div>
-          <a
-            href="aboutme.html"
-            type="button"
-            class="btn btn-outline-dark btn-lg"
-            >My Story</a
-          >
+    <div class="off-white-background">
+      <section class="container">
+        <div class="row">
+          <div class="col">
+            <div class="text-center dark-blue-text pt-5 mt-3">
+              <p class="lead">
+                I offer freelance Music and Production services in beautiful
+                Victoria, British Columbia. I enjoy collaborating, recording,
+                and performing music in a variety of settings.
+              </p>
+              <p class="lead">
+                I love what music has to offer in all the different performance
+                and production spaces available. Each room, pub, stage, and
+                basement have something unique to offer to both the performer
+                and the producer. I can't wait to share it with you.
+              </p>
+              <!-- button start -->
+              <div class="pb-5 mb-3">
+                <a
+                  href="aboutme.html"
+                  type="button"
+                  class="btn btn-outline-dark btn-lg mt-3"
+                  >My Story</a
+                >
+              </div>
+              <!-- button end -->
+            </div>
+          </div>
         </div>
-        <!-- button end -->
-      </div>
-    </section>
+      </section>
+    </div>
+
     <!-- MY STORY SECTION ENDS -->
     <!-- SERVICES & EQUIPMENT SECTION STARTS -->
     <section class="container">
-      <div class="row text-center">
+      <div class="row text-center pt-5 mt-3">
         <div class="col">
           <!-- Services Section-->
-          <p>
+          <p class="lead">
             Whether it's recording vocals for podcasts, voiceovers, or singing
             or it's
           </p>
           <!-- button start -->
-          <div>
+          <div class="pb-5 mb-3">
             <a
               href="services.html"
               type="button"
@@ -149,37 +157,46 @@
     </section>
     <!-- SERVICES & EQUIPMENT SECTION ENDS -->
     <!-- FREELANCE PROJECTS SECTION STARTS -->
-    <section class="container">
-      <div class="row">
-        <div class="col text-center">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-            ullamcorper at augue nec faucibus. Sed nec mollis massa. Vivamus
-            pellentesque, tortor ac pellentesque egestas, libero augue vehicula
-            tellus, eu porta eros enim a est.
-          </p>
-          <!-- button start -->
-          <div>
-            <a
-              href="freelancehome.html"
-              type="button"
-              class="btn btn-outline-dark btn-lg"
-              >Freelance Projects</a
-            >
-          </div>
-          <!-- button end -->
-        </div>
+    <!-- https://stackoverflow.com/questions/72361481/make-horizontal-bootstrap-5-cards-image-height-of-the-card-body Where I got the horizontal card code from -->
 
-        <div class="col">
-          <p>This is an image</p>
+    <div class="container">
+      <div class="card border-0">
+        <div class="row g-0">
+          <div class="col-sm-8">
+            <div class="mt-5 card-body text-center">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <!-- button start -->
+              <div>
+                <a
+                  href="freelancehome.html"
+                  type="button"
+                  class="btn btn-outline-dark btn-lg"
+                  >Freelance Projects</a
+                >
+              </div>
+              <!-- button end -->
+            </div>
+          </div>
+          <div class="col-sm-4 position-relative">
+            <img
+              src="Images/Home-Page/christopher-with-guitar-outside.png"
+              class="card-img fit-cover w-100 h-100"
+              alt="A young man with short dark hair sings while holding an acoustic guitar. The photo is in greyscale."
+            />
+          </div>
         </div>
       </div>
-    </section>
+    </div>
+
     <!-- FREELANCE PROJECTS  SECTION ENDS -->
 
     <!-- QUOTE SECTION STARTS -->
     <section class="container text-center">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p class="lead">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
     </section>
     <!-- QUOTE SECTION ENDS -->
     <!-- CONTACT SECTION STARTS -->
@@ -187,7 +204,9 @@
       <!-- Contact Me Section -->
       <div class="text-center">
         <h2>Contact Me</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p class="lead">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
         <!-- button start -->
         <div>
           <a
