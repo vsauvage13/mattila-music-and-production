@@ -27,71 +27,88 @@
   <body>
     <header>
       <!-- NAV BAR STARTS -->
-      <nav class="navbar navbar-expand-md dark-blue-background">
+      <nav
+        class="navbar navbar-dark nav-bar-expand-md fixed-top navbar-expand-md dark-blue-background"
+      >
         <div class="container">
           <a class="navbar-brand w-25 mt-3 off-white-text" href="index.html">
-            <p>Mattila Music & Production</p></a
+            <p>Mattila Music & Production</p>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link off-white-text" href="aboutme.html"
-                >My Story</a
-              >
-            </li>
-            <!-- NAV BAR DROPDOWN STARTS -->
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle off-white-text"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-                href="#"
-                >Projects</a
-              >
-              <ul class="dropdown-menu dark-blue-background">
-                <li>
-                  <a
-                    class="dropdown-item off-white-text"
-                    href="freelancehome.html"
-                    >Freelance Projects</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item off-white-text" href="music.html"
-                    >Music Projects</a
-                  >
-                </li>
-              </ul>
-            </li>
-            <!-- NAV BAR DROPDOWN ENDS -->
-            <li class="nav-item">
-              <a class="nav-link off-white-text" href="contact.html"
-                >Contact Me</a
-              >
-            </li>
-          </ul>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarCollapse"
+          >
+            <ul class="navbar-nav mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link off-white-text" href="aboutme.html"
+                  >My Story</a
+                >
+              </li>
+              <!-- NAV BAR DROPDOWN STARTS -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle off-white-text"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  href="#"
+                  >Projects</a
+                >
+                <ul class="dropdown-menu dark-blue-background">
+                  <li>
+                    <a
+                      class="dropdown-item off-white-text"
+                      href="freelancehome.html"
+                      >Freelance Projects</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item off-white-text" href="music.html"
+                      >Music Projects</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <!-- NAV BAR DROPDOWN ENDS -->
+              <li class="nav-item">
+                <a class="nav-link off-white-text" href="contact.html"
+                  >Contact Me</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
       <!-- NAV BAR ENDS -->
       <!-- HERO/HEADER SECTION STARTS -->
 
       <div
-        class="p-5 bg-image"
+        class="d-flex flex-column align-items-start justify-content-end"
         style="
           background-image: url('images/home-page/christopher-sitting-log-crop.png');
           height: 600px;
+          margin-top: 50px;
           background-repeat: no-repeat;
           background-size: cover;
         "
         alt="A young man with short dark hair in a blue dress shirt leans on a driftwoog log on the beach. The background is greenery along the beach."
       >
-        <div class="container mt-5">
-          <div class="d-flex flex-column align-items-start justify-content-end">
-            <div class="text-white">
-              <h1>Christopher Mattila</h1>
-              <h4>Performing Artist. Freelance Producer.</h4>
-              <!-- TODO need to get h1 and h4 to the bottom of the photo on the left hand side cant figure it out. -->
-            </div>
+        <div class="container mt-5 pt-5">
+          <div class="text-white">
+            <h1 class="display-4">Christopher Mattila</h1>
+            <h4 class="pb-3">Performing Artist. Freelance Producer.</h4>
+            <!-- TODO need to get h1 and h4 to the bottom of the photo on the left hand side cant figure it out. -->
           </div>
         </div>
       </div>
@@ -141,7 +158,7 @@
       <div class="container marketing">
         <!-- Three columns of text below the carousel -->
         <div class="row text-center">
-          <h2 class="display-3 pt-5 pb-5">
+          <h2 class="display- pt-5 pb-5">
             Whether it's recording vocals, producing new tracks, or mixing old
             ones, I offer services for all your needs.
           </h2>
@@ -325,6 +342,10 @@
       <section class="container pt-5">
         <div class="text-center off-white-text mb-3">
           <h2 class="display-4">My Music</h2>
+          <p class="lead pt-3 pb-3">
+            In my freetime I write and produce my own music. Taking inspiration
+            from artists like Chet Baker I (get chris to write more.)
+          </p>
         </div>
         <div class="row pb-5">
           <!-- soundcloud link start -->
@@ -453,6 +474,14 @@
             </div>
           </div>
           <!-- soundcloud link end-->
+        </div>
+        <div class="pb-5 text-center">
+          <a
+            href="music.html"
+            type="button"
+            class="btn btn-outline-light btn-lg"
+            >Listen Here</a
+          >
         </div>
       </section>
     </div>
