@@ -108,7 +108,6 @@
           <div class="text-white">
             <h1 class="display-4">Christopher Mattila</h1>
             <h4 class="pb-3">Performing Artist. Freelance Producer.</h4>
-            <!-- TODO need to get h1 and h4 to the bottom of the photo on the left hand side cant figure it out. -->
           </div>
         </div>
       </div>
@@ -116,41 +115,7 @@
       <!-- HERO/HEADER SECTION ENDS -->
     </header>
 
-    <!-- MY STORY SECTION STARTS -->
-    <div class="off-white-background">
-      <section class="container">
-        <div class="row">
-          <div class="col">
-            <div class="text-center dark-blue-text pt-5 mt-3">
-              <p class="lead">
-                I offer freelance Music and Production services in beautiful
-                Victoria, British Columbia. I enjoy collaborating, recording,
-                and performing music in a variety of settings.
-              </p>
-              <p class="lead">
-                I love what music has to offer in all the different performance
-                and production spaces available. Each room, pub, stage, and
-                basement have something unique to offer to both the performer
-                and the producer. I can't wait to share it with you.
-              </p>
-              <!-- button start -->
-              <div class="pb-5 mb-3">
-                <a
-                  href="aboutme.html"
-                  type="button"
-                  class="btn btn-outline-dark btn-lg mt-3"
-                  >My Story</a
-                >
-              </div>
-              <!-- button end -->
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-
-    <!-- MY STORY SECTION ENDS -->
-
+    
     <!-- SERVICES & EQUIPMENT SECTION STARTS -->
 
     <!-- https://getbootstrap.com/docs/5.0/examples/carousel/  3 COLUMN CODE FROM HERE -->
@@ -267,43 +232,86 @@
 </div> -->
 
     <!-- SERVICES & EQUIPMENT SECTION ENDS -->
-    <!-- FREELANCE PROJECTS SECTION STARTS -->
-    <!-- https://stackoverflow.com/questions/72361481/make-horizontal-bootstrap-5-cards-image-height-of-the-card-body Where I got the horizontal card code from -->
-    <div class="light-blue-background">
-      <div class="container">
-        <div class="card border-0 light-blue-background">
-          <div class="row g-0">
-            <div class="col-sm-8">
-              <div class="mt-5 card-body text-center">
-                <p class="card-text lead">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </p>
-                <!-- button start -->
-                <div>
-                  <a
-                    href="freelancehome.html"
-                    type="button"
-                    class="btn btn-outline-dark btn-lg"
-                    >Freelance Projects</a
-                  >
-                </div>
-                <!-- button end -->
-              </div>
-            </div>
-            <div class="col-sm-4 position-relative">
-              <img
-                src="Images/Home-Page/christopher-with-guitar-outside.png"
-                class="card-img fit-cover w-100 h-100"
-                alt="A young man with short dark hair sings while holding an acoustic guitar. The photo is in greyscale."
-              />
-            </div>
+
+<!-- MY STORY SECTION STARTS -->
+<div class="dark-blue-background ">
+  <section class="container">
+    <div class="row">
+      <div class="col">
+        <div class="text-center off-white-text pt-5 mt-3">
+          <p class="lead">
+            I offer freelance Music and Production services in beautiful
+            Victoria, British Columbia. I enjoy collaborating, recording,
+            and performing music in a variety of settings.
+          </p>
+          <p class="lead">
+            I love what music has to offer in all the different performance
+            and production spaces available. Each room, pub, stage, and
+            basement have something unique to offer to both the performer
+            and the producer. I can't wait to share it with you.
+          </p>
+          <!-- button start -->
+          <div class="pb-5 mb-3">
+            <a
+              href="aboutme.html"
+              type="button"
+              class="btn btn-outline-light btn-lg mt-3"
+              >My Story</a
+            >
           </div>
+          <!-- button end -->
         </div>
       </div>
     </div>
+  </section>
+</div>
 
+<!-- MY STORY SECTION ENDS -->
+
+
+    <!-- FREELANCE PROJECTS SECTION STARTS -->
+
+    <div class="container">
+      <div class="d-flex row featurette align-items-center pt-5 pb-5">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">
+            First featurette heading.
+            <span class="text-muted">It'll blow your mind.</span>
+          </h2>
+          <p class="lead">
+            Some great placeholder content for the first featurette here.
+            Imagine some exciting prose here.
+          </p>
+          <!-- button start -->
+
+          <div class="d-flex justify-content-center">
+            <a
+              href="freelancehome.html"
+              type="button"
+              class="btn btn-outline-dark btn-lg"
+              >Freelance Projects</a
+            >
+          </div>
+
+          <!-- button end -->
+        </div>
+        <div class="col-md-5">
+          <img
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            src="images/Home-Page/Christopher-with-guitar-bw.svg"
+            width="500"
+            height="500"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: 500x500"
+            preserveaspectratio="xMidYMid slice"
+            focusable="false"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
     <!-- FREELANCE PROJECTS  SECTION ENDS -->
-
     <!-- QUOTE SECTION STARTS -->
     <div class="dark-blue-background off-white-text">
       <section class="container text-center pt-5">
@@ -315,26 +323,45 @@
 
     <!-- QUOTE SECTION ENDS -->
     <!-- CONTACT SECTION STARTS -->
-    <section class="container pt-5 mt-3">
-      <!-- Contact Me Section -->
-      <div class="text-center">
-        <h2 class="display-4">Contact Me</h2>
-        <p class="lead pt-3 pb-3">
-          Whatever your project might be, I can help. Let me turn your dreams
-          into your reality.
-        </p>
-        <!-- button start -->
-        <div class="pb-5 mb-3">
-          <a
-            href="contact.html"
-            type="button"
-            class="btn btn-outline-dark btn-lg"
-            >Get In Touch</a
-          >
+    <div class="container">
+      <div class="d-flex row align-items-center featurette pt-5 pb-5">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Contact Me</h2>
+          <p class="lead">
+            Whatever your project might be, I can help. Let me turn your dreams
+            into your reality.
+          </p>
+          <!-- button start -->
+
+          <div class="d-flex justify-content-center">
+            <a
+              href="contact.html"
+              type="button"
+              class="btn btn-outline-dark btn-lg"
+              >Get In Touch</a
+            >
+          </div>
+
+          <!-- button end -->
         </div>
-        <!-- button end -->
+
+        <div class="col-md-5 order-md-1">
+          <img
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            src="images/Home-Page/Christopher-holding-guitar-polaroid.svg"
+            width="500"
+            height="500"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: 500x500"
+            preserveaspectratio="xMidYMid slice"
+            focusable="false"
+            alt=""
+          />
+        </div>
       </div>
-    </section>
+    </div>
+
     <!-- CONTACT SECTION ENDS-->
     <!-- MUSIC SECTION STARTS -->
     <!--TODO MAKE A CAROUSEL FOR MUSIC  -->
