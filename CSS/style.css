@@ -2,32 +2,72 @@
 -------------------------------------------- */
 
 .dark-blue-background {
-    background-color: #011B28 !important;
+  background-color: #011b28 !important;
 }
 .light-blue-background {
-    background-color: #acd9ec;
+  background-color: #acd9ec;
 }
 .off-white-background {
-    background-color: #EEF7FB;
+  background-color: #eef7fb;
 }
 .orange-background {
-    background-color: #f25f4c;
+  background-color: #f25f4c;
 }
 /* TEXT COLOURS
 -------------------------------------------- */
 .dark-blue-text {
-    color: #011B28;
+  color: #011b28;
 }
 .off-white-text {
-color: #EEF7FB;
+  color: #eef7fb;
 }
 
 /* NAV BAR
 -------------------------------------------- */
-.navbar-brand:hover,.nav-link:hover {
-color: #f58300 !important;
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #f58300 !important;
 }
 .dropdown-item:hover {
-    color: #f58300 !important;
-    background-color: #011B28 !important;
+  color: #f58300 !important;
+  background-color: #011b28 !important;
 }
+
+/* MEDIA QUERIES
+-------------------------------------------- */
+/* FOR MUSIC CAROUSEL START
+-------------------------------------------- */
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+
+  .carousel-inner .carousel-item-start.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+  transform: translateX(0);
+}
+/* FOR MUSIC CAROUSEL END
+-------------------------------------------- */
