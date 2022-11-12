@@ -32,6 +32,12 @@
   color: #f58300 !important;
   background-color: #011b28 !important;
 }
+/* FOOTER
+-------------------------------------------- */
+.email a:hover, .footer-icons a i:hover {
+  color: #f58300 !important;
+}
+
 
 /* MEDIA QUERIES
 -------------------------------------------- */
