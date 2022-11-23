@@ -21,6 +21,9 @@
 .off-white-text {
   color: #eef7fb;
 }
+.orange-text {
+  color: #f25f4c;
+}
 
 /* NAV BAR
 -------------------------------------------- */
@@ -32,6 +35,14 @@
   color: #f58300 !important;
   background-color: #011b28 !important;
 }
+/* FREELANCE HOME PAGE
+-------------------------------------------- */
+.project-heading a:hover {
+  color: #011b28 !important; 
+}
+
+
+
 /* FOOTER
 -------------------------------------------- */
 .email a:hover, .footer-icons a i:hover {
