@@ -22,7 +22,7 @@
   color: #eef7fb;
 }
 .orange-text {
-  color: #f25f4c;
+  color: #f58300;
 }
 
 /* NAV BAR
@@ -44,7 +44,7 @@
 /* FOOTER
 -------------------------------------------- */
 .email a:hover,
-.footer-icons a i:hover {
+.footer-icons a svg:hover {
   color: #f58300 !important;
 }
 
