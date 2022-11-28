@@ -109,7 +109,7 @@
       <!-- HERO/HEADER SECTION STARTS -->
 
       <div
-        class="d-flex flex-column align-items-start justify-content-end"
+        class="d-flex flex-column align-items-start justify-content-end img-responsive"
         style="
           background-image: url('images/home-page/christopher-sitting-log-crop.png');
           height: 600px;
@@ -117,7 +117,7 @@
           background-repeat: no-repeat;
           background-size: cover;
         "
-        alt="A young man with short dark hair in a blue dress shirt leans on a driftwoog log on the beach. The background is greenery along the beach."
+        aria-label="A young man with short dark hair in a blue dress shirt leans on a driftwoog log on the beach. The background is greenery along the beach."
       >
         <div class="container mt-5 pt-5">
           <div class="text-white">
@@ -125,6 +125,7 @@
           </div>
         </div>
       </div>
+      <!-- TODO Attribute alt not allowed on element div at this point. img -->
 
       <!-- HERO/HEADER SECTION ENDS -->
     </header>
@@ -132,36 +133,42 @@
     <!--HEART OF STONE PROJECT SECTION STARTS -->
     <div class="container">
       <div class="d-flex row featurette pt-5 pb-5">
-        <div class="col-md-7 order-md-2">
+        <div class="col-lg-5 order-md-1">
           <h2 class="featurette-heading">Heart of Stone Remastered</h2>
           <p class="lead">
-            Whatever your project might be, I can help. Let me turn your dreams
-            into your reality.
+            This project was completed using Ableton Live Digital Audio
+            Workstation.
           </p>
         </div>
 
-        <div class="col-md-5 order-md-1">
-          <iframe width="350" height="300" src="https://www.youtube.com/embed/yvLiNPdKFl0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen aria-label="Placeholder: 500x500"
-          preserveaspectratio="xMidYMid slice"
-          focusable="false"
-          alt=""> </iframe>
-
+        <div class="col order-md-2 embed-responsive embed-responsive-16by9">
+          <iframe
+            class="embed-responsive-item"
+            src="https://www.youtube.com/embed/yvLiNPdKFl0"
+            title="Heart of Stone Cover Remastering Project"
+            allowfullscreen
+            aria-label="Heart of Stone Cover - Youtube Video"
+            alt="Heart of Stone Cover Remastering Project by Mattila Music and Production. Piano by Evelyn Hawes. Vocals by Dustin Forbes. Mixing by Christopher Mattila."
+          >
+          </iframe>
         </div>
       </div>
       <div>
         <p class="pb-4">
-          This project entails a cover project from one of our favorite
-          musicals. It was our first collaboration project together and gave us
-          an opportunity to work together for the first time.
-
+          A couple of clients came to me looking for help with a cover project
+          they were doing for one of their favourite musicals. This was my first
+          collaboration project with them and gave me an opportunity to work
+          together with them for the first time.
           <br />
           <br />
-          The mixing services I offered begin with recording life takes of the
-          instrumentation. After we got the instrumentation we recorded the
-          vocal takes including the main melody and harmony. after we had all of
-          our tracks I engineered the mix im ableton live and worked on
-          Equalization and effects to boost the quality. I also quantized mix to
-          ensur rhythmic precision .
+          I predomidantly helped with mixing for this project. I begin with
+          recording live takes of both clients instrumentation. After we got the
+          perfect recording of instrumentation we recorded the vocal takes
+          including the main melody and harmony. Then after I had all of the
+          tracks recorded to my standard, I engineered the mix in Ableton Live
+          Digital Audio Workstation and worked on equalization and other effects
+          to boost the quality. I quantized the mix to ensure rhythmic precision
+          for an overall more pleasant sounding mix.
         </p>
       </div>
     </div>
@@ -171,8 +178,8 @@
     <!-- FOOTER SECTION STARTS -->
     <footer class="dark-blue-background off-white-text">
       <div class="container pt-5">
-        <div class="row pb-5 mt-5">
-          <div class="col-auto">
+        <div class="row pb-5 mt-5 mb-0">
+          <div class="col-md-6 col-lg-4">
             <h2 class="display-6">Christopher Mattila</h2>
             <h4>Performing Artist. Freelance Producer.</h4>
             <div class="email">
@@ -229,17 +236,24 @@
               </div>
             </div>
           </div>
-          <div class="col">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2645.6857679193026!2d-123.33235889999997!3d48.4625584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548f73e5dac1aae1%3A0x25833ccdecbb489f!2s3819%20Shelbourne%20St%20%23412%2C%20Victoria%2C%20BC%20V8P%204H5!5e0!3m2!1sen!2sca!4v1668233454475!5m2!1sen!2sca"
-              width="600"
-              height="200"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
+          <!-- map starts -->
+          <div class="flex justify-center items-center float-right w-full col-md-6 col-lg-8 pt-4">
+            <div class="map-size ratio ratio-16x9 ">
+              <iframe
+                class="embed-responsive-item"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2645.6857679193026!2d-123.33235889999997!3d48.4625584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548f73e5dac1aae1%3A0x25833ccdecbb489f!2s3819%20Shelbourne%20St%20%23412%2C%20Victoria%2C%20BC%20V8P%204H5!5e0!3m2!1sen!2sca!4v1668233454475!5m2!1sen!2sca"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+              <!-- TODO frameborder on iframe element is obsolete use css instead.
+               Attribute alt not allowed on element iframe at this point.
+              Attribute focusable not allowed on element iframe at this point.
+            Error: Attribute preserveaspectratio not allowed on element iframe at this point.-->
+            </div>
           </div>
+          <!-- map ends -->
         </div>
       </div>
     </footer>

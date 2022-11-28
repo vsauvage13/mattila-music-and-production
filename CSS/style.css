@@ -38,17 +38,23 @@
 /* FREELANCE HOME PAGE
 -------------------------------------------- */
 .project-heading a:hover {
-  color: #011b28 !important; 
+  color: #011b28 !important;
 }
-
-
 
 /* FOOTER
 -------------------------------------------- */
-.email a:hover, .footer-icons a i:hover {
+.email a:hover,
+.footer-icons a i:hover {
   color: #f58300 !important;
 }
 
+.map-size {
+  max-width: 800px;
+  max-height: 300px;
+}
+.map-size::before {
+  padding-top: 300px;
+}
 
 /* MEDIA QUERIES
 -------------------------------------------- */
@@ -61,7 +67,6 @@
   .carousel-inner .carousel-item > div:first-child {
     display: block;
   }
-
 }
 
 .carousel-inner .carousel-item.active,
