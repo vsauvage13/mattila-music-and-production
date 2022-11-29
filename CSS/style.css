@@ -31,6 +31,15 @@
 .nav-link:hover {
   color: #f58300 !important;
 }
+
+.dropdown-menu a{
+color: #eef7fb ;
+}
+
+.navbar-toggler {
+  color: #eef7fb !important;
+}
+
 .dropdown-item:hover {
   color: #f58300 !important;
   background-color: #011b28 !important;
@@ -38,7 +47,22 @@
 /* FREELANCE HOME PAGE
 -------------------------------------------- */
 .project-heading a:hover {
-  color: #011b28 !important;
+  color: #f58300 !important;
+}
+/* CONTACT PAGE
+-------------------------------------------- */
+.contact-form {
+  border-radius: 2rem;
+}
+.contact-btn a:hover {
+background-color: #acd9ec !important;
+color: #011b28 !important;
+}
+
+.contact-form-bg {
+  background-image: url(/Images/Contact/paulette-wooten-FMiczIq8orU-unsplash.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* FOOTER
