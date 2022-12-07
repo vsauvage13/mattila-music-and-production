@@ -32,8 +32,8 @@
   color: #f58300 !important;
 }
 
-.dropdown-menu a{
-color: #eef7fb ;
+.dropdown-menu a {
+  color: #eef7fb;
 }
 
 .navbar-toggler {
@@ -44,6 +44,12 @@ color: #eef7fb ;
   color: #f58300 !important;
   background-color: #011b28 !important;
 }
+
+.w-music {
+  width: auto;
+  margin: 0 -20px;
+}
+
 /* FREELANCE HOME PAGE
 -------------------------------------------- */
 .project-heading a:hover {
@@ -55,8 +61,8 @@ color: #eef7fb ;
   border-radius: 2rem;
 }
 .contact-btn a:hover {
-background-color: #acd9ec !important;
-color: #011b28 !important;
+  background-color: #acd9ec !important;
+  color: #011b28 !important;
 }
 
 .contact-form-bg {
