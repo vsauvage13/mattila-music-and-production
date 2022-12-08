@@ -1,0 +1,136 @@
+INSTRUCTIONS: Fill out the following form and upload the form to your GITHub repository. 
+Choose only one of the corresponding numbers in your answer for sections A-F.  
+Answer the questions in section G in sentence form.
+Please total your self-evaluation score at the bottom of the rubric.
+
+A. Code Quality 
+0 - Nothing - No submission
+1 - Below Expectations - Code renders but the code is unreadable 
+2 - Meets Expectations - Good formatting and uses naming conventions but can be improved
+3 - Exceeds Expectations - Code is exceptionally clean and best practices are used
+Your Answer: 2
+
+
+B. Content 
+0 - Nothing - No submission
+1 - Below Expectations - Content not related to assignment or project
+2 - Meets Expectations - Content is related to assignment or project and gets the point across
+3 - Exceeds Expectations - Content is exceptionally detailed and well put together
+Your Answer: 3
+
+
+C. Layout / Organization 
+0 - Nothing - No Submission
+1 - Below Expectations - Long codes with no divisions or random code layout
+2 - Meets Expectations - Code that is modular and divided into section declarations; subprograms
+3 - Exceeds Expectations - Code is exceptionally well organized. 
+Your Answer: 3
+
+
+D. Comments/Commits 
+0 - Nothing - No Submission
+1 - Below Expectations - Excessive, unnecessary, and irrelevant remarks
+2 - Meets Expectations - Comments identify authorship and code's intention
+3 - Exceeds Expectations - Comments and documentation are clear succinct; wizardry points are explained
+Your Answer: 2
+
+
+E. Rendering 
+0 - Nothing - Page does not load or render
+1 - Below Expectations - Page renders, but has errors and/or has apparent design issues
+2 - Meets Expectations - Page renders and produces no errors
+3 - Exceeds Expectations - Page renders and displays properly for multiple screen sizes and browsers 
+Your Answer: 3
+
+F. Process
+0 - Nothing - Project not attempted
+1 - Below Expectations - code and documents not added to repository at correct times
+2 - Meets Expectations - code published as website, milestones met
+3 - Exceeds Expectations - all milestones accomplished, submissions organized, instructions carefully followed, steps thoroughly documented
+Your Answer: 3
+
+
+G. Self Evaluation Questions (half point each):
+
+1. How much time did you spend on this assignment/project? .5/.5
+
+After getting all the initial content, incorporating it, doing multiple revisions, and troubleshooting probably over 40 hours. 
+
+2. How difficult did you feel this project was? Easy, moderate, difficult? .5/.5
+
+I found it difficult to complete everything at the beginning. Overall I found it moderate just very time consuming. Once I got closer to the end and it was more adding things that I wanted to instead of figuring out all the big elements and adding content it got a lot easier. 
+
+3. What challenges did you come across while working on this project? .5/.5
+
+I ran into complications with some bootstrap elements like the carousel, collapsing elements, and writing semantic code in regards to using Bootstrap. I also found it a little difficult to go back to Bootstrap after learning SASS but figured it would be better to continue with Bootstrap as opposed to integrating SASS that far in the project. 
+
+4. What things would you like to learn more about after having worked on this assignment? .5/.5
+
+I would like to know more about writing semantic code with Bootstrap as some things seem to be used in bootstrap that are considered bad practice. 
+
+Total Score: 18/20
+
+Changes Made: 
+
+General
+- All header images got resized and the height was adjusted so that they don't take up the whole page. 
+- The map on the footer has been taken out for the mobile size
+- Sizing of the page headers were made bigger
+- Spacing was adjusted for items all over the website especially with the mobile version
+
+Home Page
+- The extra buttons were taken out of the services portion so there is just one. 
+- The arrows on the carousel were adjusted to be centered horizontally with more spacing on each side
+- The images on the home page have been taken out for the mobile version
+
+My Story 
+- Intro font and size changed and reformatted
+- Image taken out for mobile version
+- Button added at the bottom as a CTA
+
+Freelance Project Pages
+- Breadcrumbs added for interpage navigation
+- Intro font and size changed and reformatted
+- Header and Footer colour was taken out - added it back in
+
+Music Page
+- Music relinked for songs that were removed by client 
+
+Services
+- Services now displayed in rows of 3 services
+
+Contact 
+- Contact Form was put in with proper form entries
+- Additional Contacts is removed in mobile version as its displayed in the footer
+
+
+Changes Identified but didn't get to:
+
+General
+- I would like to collapse a few more things on the pages but could not get items to collapse on mobile only even after a few hours of troubleshooting and trying different things
+
+Projects Page 
+- Hamburger menu was not seen - could not figure out why its not visible on this page so it wasn't fixed.
+- Hover over Projects had border that was opaque - could not get it to change width
+
+Services 
+- I would have liked to collapse the text on the services page but didn't get it 
+
+Contact
+- Contact form I would like to properly work but didn't know how to do it with Bootstrap
+
+Overview
+
+I really enjoyed learning about Bootstrap and SASS. It made the coding process so much faster and so much easier. I like having projects every week that directly apply to the code learned as it really helps in the applied learning of a subject. 
+
+I found SASS hard to learn with the tutorial provided as there were a alot of elements that were out of date. Once I spent some time with my tutor it was a lot easier to understand but it would have been nice to only need the tutorial to understand the basics. 
+
+I found the quizzes frustrating because you can't see the answers and the questions just kept getting repeated. This gives the student absolutely no idea if they are getting the questions right and does not affirm any content. 
+
+The workload was appropriate although challenging. I would have liked a more thorough timeline for the final project as it kinda went from o to 100 really quickly.. Having a thorough outline for what is expected when would be more approriate for time management and understanding expectations. 
+
+Some content I believe was more relevant than others. As an example, Scrum is a great concept to understand but when it comes to application of scrum during coding, it was only really used in a few labs. Overall I feel like time would have been better spent on more relevant coding content like explaining Bootstrap and SCSS in more detail, the semantics of Bootstrap and SCSS, or even going over quiz answers and assignments in class to affirm the knowledge that we were learning.
+
+I feel like we spent too much time on code rubrics when we could have spent some of that time on the purpose or content behind them to affirm that information in a slightly different way. 
+
+I definitely feel like I could od a project now although I would want to update my rubric for each project, learn a little more about Bootstrap and SCSS and how best to use them. 
