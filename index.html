@@ -243,7 +243,10 @@
               </p>
               <!-- button start -->
               <div class="pb-5 mb-3">
-                <a href="aboutme.html" role="button" class="btn btn-outline-light btn-lg mt-3"
+                <a
+                  href="aboutme.html"
+                  role="button"
+                  class="btn btn-outline-light btn-lg mt-3"
                   >My Story</a
                 >
               </div>
@@ -274,7 +277,10 @@
           <!-- button start -->
 
           <div class="d-flex justify-content-center">
-            <a href="freelancehome.html" role="button" class="btn btn-outline-dark btn-lg"
+            <a
+              href="freelancehome.html"
+              role="button"
+              class="btn btn-outline-dark btn-lg"
               >Freelance Projects</a
             >
           </div>
@@ -326,8 +332,10 @@
           <!-- button start -->
 
           <div class="d-flex justify-content-center">
-            <a href="contact.html"                 role="button" class="btn 
-            btn-outline-dark btn-lg"
+            <a
+              href="contact.html"
+              role="button"
+              class="btn btn-outline-dark btn-lg"
               >Book a Free Consultation</a
             >
           </div>
@@ -577,24 +585,5 @@
       </div>
     </footer>
     <!-- FOOTER SECTION ENDS -->
-    <!-- javascript for music section carousel starts here -->
-    <script>
-      let items = document.querySelectorAll(".carousel .carousel-item");
-
-      items.forEach((el) => {
-        const minPerSlide = 4;
-        let next = el.nextElementSibling;
-        for (var i = 1; i < minPerSlide; i++) {
-          if (!next) {
-            // wrap carousel by using first child
-            next = items[0];
-          }
-          let cloneChild = next.cloneNode(true);
-          el.appendChild(cloneChild.children[0]);
-          next = next.nextElementSibling;
-        }
-      });
-    </script>
-    <!-- javascript for music section carousel ends here -->
   </body>
 </html>
